@@ -37,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: pedro-jose-da-rocha-mendonca.github.io/Main.ipynb
+          path: pedro-jose-da-rocha-mendonca.github.io/Main(1).html
 
   # Deployment job
   deploy:
