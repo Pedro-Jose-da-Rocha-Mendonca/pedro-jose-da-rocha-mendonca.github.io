@@ -36,10 +36,6 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-      - name: Upload HTML to page
-        uses: actions/upload-pages-artifact@v1.0.6
-        with: 
-          path: Index.html
 
   # Deployment job
   deploy:
