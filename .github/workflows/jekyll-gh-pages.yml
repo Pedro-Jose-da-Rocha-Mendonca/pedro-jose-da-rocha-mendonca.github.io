@@ -36,6 +36,8 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+        with:
+          path: pedro-jose-da-rocha-mendonca.github.io/Main.ipynb
 
   # Deployment job
   deploy:
@@ -48,3 +50,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        
